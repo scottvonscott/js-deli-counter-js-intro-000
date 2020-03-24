@@ -10,7 +10,7 @@ function nowServing (katzDeliLine) {
   if (katzDeliLine.length = []) {
     return "There is nobody waiting to be served!"
   }
-  else {katzDeliLine.pop(-3)
+  else {katzDeliLine.pop(-2)
     return katzDeliLine
   }
 }
