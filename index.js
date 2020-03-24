@@ -6,15 +6,15 @@ function takeANumber (currentLine, newName) {
   return `Welcome, ${newName}.` + ` You are number ${currentLine.length} in line.`
 }
 
-// function nowServing (katzDeliLine) {
-//   if (katzDeliLine.length = 0) {
-//     return "There is nobody waiting to be served!"
-// } katzDeliLine.shift(0)
-//    return katzDeliLine
-// }
-
-function nowServing(katzDeliLine) {
-  return `Currently serving ${katzDeliLine.shift()}.`
-} if (katzDeliLine.length = 0) {
+function nowServing (katzDeliLine) {
+  if (katzDeliLine.length = 0) {
     return "There is nobody waiting to be served!"
-  }
+}
+return `Currently serving ${katzDeliLine.shift()}.`
+}
+
+// function nowServing(katzDeliLine) {
+//   return `Currently serving ${katzDeliLine.shift()}.`
+// } (katzDeliLine.length = 0) {
+//     return "There is nobody waiting to be served!"
+//   }
