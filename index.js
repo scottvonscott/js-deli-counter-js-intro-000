@@ -13,4 +13,3 @@ function nowServing (katzDeliLine) {
   else (katzDeliLine.length > 0)
     return katzDeliLine.shift()
    }
-  }
