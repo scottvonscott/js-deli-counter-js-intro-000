@@ -6,9 +6,14 @@ function takeANumber (currentLine, newName) {
   return `Welcome, ${newName}.` + ` You are number ${currentLine.length} in line.`
 }
 
-function nowServing (katzDeliLine) {
-  if (katzDeliLine.length = 0) {
-    return "There is nobody waiting to be served!"
-} katzDeliLine.shift(0)
+// function nowServing (katzDeliLine) {
+//   if (katzDeliLine.length = 0) {
+//     return "There is nobody waiting to be served!"
+// } katzDeliLine.shift(0)
+//    return katzDeliLine
+// }
+
+function nowServing(katzDeliLine) {
+  katzDeliLine.shift()
    return katzDeliLine
 }
