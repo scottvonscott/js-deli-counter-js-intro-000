@@ -14,5 +14,5 @@ function takeANumber (currentLine, newName) {
 // }
 
 function nowServing(katzDeliLine) {
-  katzDeliLine.shift()
+  katzDeliLine.shift(1)
 }
